@@ -1,0 +1,10 @@
+def is_even(number: int) -> bool:
+    return number % 2 == 0
+
+def is_vowel(letter: str) -> bool:
+    return letter.upper() in "AEIOU"
+
+def compute_expected_answer(position: str, letter: str, number: int) -> bool:
+    if position == "TOP":
+        return is_even(number)
+    return is_vowel(letter)
