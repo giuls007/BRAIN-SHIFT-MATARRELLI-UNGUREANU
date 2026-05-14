@@ -45,9 +45,3 @@ Il codice segue un'architettura modulare e disaccoppiata, separando la logica di
 - **Python 3.10** o superiore.
 - Libreria **Pygame 2.x**.
 
-### Esecuzione in VS Code
-1. Apri la cartella del progetto in VS Code.
-2. Apri il terminale integrato (`Ctrl+ò` o `Terminal > New Terminal`).
-3. Installa le dipendenze:
-   ```bash
-   pip install pygame
